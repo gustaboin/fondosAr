@@ -24,24 +24,7 @@ Permite:
 
 ## Estructura
 
-src/
-├── components/
-│ ├── Filtros.jsx # Barra de filtros (texto, horizonte, renta, rango días)
-│ ├── FondosTable.jsx # Tabla de fondos
-│ ├── FondoHistorico.jsx # Gráfico histórico de un fondo
-│ ├── RankingFondos.jsx # Top 10 por patrimonio
-│ ├── RankingCrecimiento.jsx # Top 10 crecimiento patrimonial (WIP)
-│ ├── Tabs.jsx # Selector de tabs (30 / 60 / 90 días)
-│
-├── services/
-│ └── fondosApi.js # Lógica para consumir API (renta fija/mixta/variable)
-│
-├── pages/
-│ └── FondosPage.jsx # Página principal del dashboard
-│
-├── styles/
-│ ├── Fondos.css
-│ └── fondosFiltro.css
+![Estructura](public/estructura.png)
 
 ## Todos los fondos
 
