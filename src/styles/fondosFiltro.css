@@ -1,0 +1,71 @@
+.filtros {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filtros input,
+.filtros select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.filtros input:focus,
+.filtros select:focus {
+    border-color: #1e90ff;
+    box-shadow: 0 0 0 2px rgba(30, 144, 255, 0.2);
+}
+
+/* Tabs (si no lo tenés) */
+.tabs {
+    display: flex;
+    gap: 0.8rem;
+    margin: 1rem 0;
+}
+
+.tab {
+    padding: 0.5rem 0.9rem;
+    border: none;
+    border-radius: 8px;
+    background: #f3f6fb;
+    cursor: pointer;
+    transition: all .15s;
+}
+
+.tab.active {
+    background: #1e90ff;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(30, 144, 255, 0.12);
+}
+
+/* KPI */
+.kpi {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.kpi .value {
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.kpi .delta {
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.kpi .delta.positive {
+    background: #e6ffed;
+    color: #127a2a;
+}
+
+.kpi .delta.negative {
+    background: #fff2f2;
+    color: #b22222;
+}

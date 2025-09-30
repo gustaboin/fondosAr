@@ -1,0 +1,55 @@
+.filtros {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.fondos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.fondos-table th,
+.fondos-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.ranking {
+    margin-top: 2rem;
+}
+
+.ranking ol {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+
+.fondos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    font-family: system-ui, sans-serif;
+}
+
+.fondos-table thead {
+    background: #1e90ff;
+    color: white;
+    text-align: left;
+}
+
+.fondos-table th,
+.fondos-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.fondos-table tr:nth-child(even) {
+    background: #f9fafb;
+}
+
+.fondos-table tr:hover {
+    background: #9c9e9e;
+    transition: background 0.2s ease;
+}
